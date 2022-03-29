@@ -1,0 +1,94 @@
+* {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+li {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.related {
+  list-style: none;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+article header p {
+  font-style: italic;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+aside {
+  border: 5px solid #1098ab;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #1098ab;
+}
+
+li:first-child {
+  font-weight: bold;
+}
+/* 
+li:nth-child(even) {
+  color: red;
+} */
+
+/* li:last-child {
+  font-style: italic;
+} */
+
+#copyright {
+  font-size: 16px;
+}
+
+a:link {
+  color: #1098ab;
+  text-decoration: none;
+}
+a:visited {
+  color: #1098ab;
+}
+
+a:hover {
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}

@@ -4,10 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Code Magazine</title>
   </head>
   <body>
-    <header>
+    <header class="main-header">
       <h1>🧧 Th Code Magazine 📘</h1>
       <nav>
         <a href="./blog.html">Blog</a>
@@ -26,10 +27,9 @@
           width="120"
           height="120"
         />
+
+        <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
       </header>
-
-      <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
-
       <img
         src="./img/post-img.jpg"
         alt="profile photo"
@@ -94,7 +94,7 @@
 
     <aside>
       <h4>Related post</h4>
-      <ul>
+      <ul class="related">
         <li>
           <img
             src="./img/WhatsApp Image 2022-03-13 at 6.21.38 PM.jpeg"
@@ -102,6 +102,7 @@
             width="75"
             height="85"
           /><a href="#">find what you are looking for </a>
+          <p class="related-author">By Mupela</p>
         </li>
         <li>
           <img
@@ -110,6 +111,7 @@
             width="75"
             height="85"
           /><a href="#">be the best version of you </a>
+          <p class="related-author">By Mike</p>
         </li>
         <li>
           <img
@@ -118,12 +120,13 @@
             width="75"
             height="85"
           /><a href="#">you don't need the world to be happy </a>
+          <p class="related-author">By Keddy</p>
         </li>
       </ul>
     </aside>
 
     <footer>
-      <p>Copyright &copy; 2027 by The Code</p>
+      <p id="copyright">Copyright &copy; 2027 by The Code</p>
     </footer>
   </body>
 </html>

@@ -1,0 +1,33 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  line-height: 1.5;
+}
+
+.hedding {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.img-product {
+  width: 250px;
+  height: 250px;
+}
+
+.price {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  color: rgb(77, 165, 136);
+}
+
+.list {
+  list-style: circle;
+}
+
+.button {
+  border-radius: 10px;
+  border: none;
+  width: 100px;
+  height: 40px;
+  box-shadow: inset;
+}

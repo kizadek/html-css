@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.youtube-button {
+  margin: 20px 20px 0;
+  height: 46px;
+  width: 105px;
+  color: white;
+  background-color: rgb(200, 0, 4);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.shear-button {
+  height: 46px;
+  width: 100px;
+  color: blue;
+  border-color: rgb(71, 71, 170);
+  border-style: solid;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: white;
+  text-transform: uppercase;
+}
